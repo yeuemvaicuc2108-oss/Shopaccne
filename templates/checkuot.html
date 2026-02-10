@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thanh toán</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>💳 Thanh toán đơn {{ code }}</h2>
+
+    <p>Game: {{ acc[1] }}</p>
+    <p>Giá: <b>{{ acc[3] }}đ</b></p>
+
+    <hr>
+
+    <p>🏦 STK: 0347566238</p>
+    <p>📝 Nội dung: <b>{{ code }}</b></p>
+
+    <p>Sau khi admin xác nhận:</p>
+    <p><b>/view/{{ code }}</b></p>
+</div>
+
+</body>
+</html>
